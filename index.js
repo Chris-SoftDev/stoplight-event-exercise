@@ -7,12 +7,10 @@
     stopLight.classList.toggle('stop');
   });
   stopBtn.addEventListener('mouseenter', () => {
-    var stopButton = document.querySelector('#stopButton');
-    console.log(`Entered ${stopButton.textContent} button`) 
+    console.log(`Entered ${stopBtn.textContent} button`) 
   });
   stopBtn.addEventListener('mouseleave', () => {
-    var stopButton = document.querySelector('#stopButton');
-    console.log(`Left ${stopButton.textContent} button`)
+    console.log(`Left ${stopBtn.textContent} button`)
   });
   
   // SLOW BUTTON Event Listeners
@@ -22,12 +20,10 @@
     slowLight.classList.toggle('slow');
   }); 
   slowBtn.addEventListener('mouseenter', () => {
-    var slowButton = document.querySelector('#slowButton');
-    console.log(`Entered ${slowButton.textContent} button`)
+    console.log(`Entered ${slowBtn.textContent} button`)
   }); 
   slowBtn.addEventListener('mouseleave', () => {
-    var slowButton = document.querySelector('#slowButton');
-    console.log(`Left ${slowButton.textContent} button`)
+    console.log(`Left ${slowBtn.textContent} button`)
   }); 
 
   // GO BUTTON Event Listeners
@@ -37,12 +33,10 @@
     goLight.classList.toggle('go');
   });
   goBtn.addEventListener('mouseenter', () => {
-    var goButton = document.querySelector('#goButton');
-    console.log(`Entered ${goButton.textContent} button`);
+    console.log(`Entered ${goBtn.textContent} button`);
   });
   goBtn.addEventListener('mouseleave', () => {
-    var goButton = document.querySelector('#goButton');
-    console.log(`Left ${goButton.textContent} button`) 
+    console.log(`Left ${goBtn.textContent} button`) 
   });
 
   var btnClass = document.querySelector('#controls');
